@@ -9,4 +9,4 @@ def main():
         case _:
         print("Location unknown for", name)
 
-main():
+main()
