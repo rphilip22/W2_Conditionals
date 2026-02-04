@@ -1,11 +1,12 @@
-name = input("Enter your name: ")
+def main():
+    name = input("Enter your name: ")
 
-match name:
-    case "Kai":
+    match name:
+        case "Kai" | "Ryan":
         print(name , "is from CT.")
-    case "Ryan":
-        print(name , "is from CT.")
-    case "Jack":
+        case "Jack":
         print(name , "is from NY.")
-    case _:
+        case _:
         print("Location unknown for", name)
+
+main():
